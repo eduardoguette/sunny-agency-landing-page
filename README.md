@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://eduardoguette.github.io/sunny-agency-landing-page/)
-- Live Site URL: [](https://eduardoguette.github.io/sunny-agency-landing-page/)
+- Solution URL: [](https://sunny-agency.netlify.app/)
+- Live Site URL: [](https://sunny-agency.netlify.app/)
 
 ## My process
 
