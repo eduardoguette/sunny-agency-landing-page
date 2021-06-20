@@ -1,4 +1,4 @@
-.transform-stand article {
+.transform-stand div {
   text-align: center;
 }
 .transform-stand .content {
@@ -13,7 +13,7 @@
 .title-card {
   font: var(--headline2);
 }
-.transform-stand article a {
+.transform-stand div a {
   font: var(--button);
   text-transform: uppercase;
   color: var(--Very-dark-blue);
@@ -25,7 +25,7 @@
   place-items: center;
   font-weight: 900;
 }
-.transform-stand article hr {
+.transform-stand div hr {
   height: 0.6em;
   background: var(--yellow);
   border: none;
@@ -36,24 +36,24 @@
   top: -0.4em;
   opacity: 0.2;
 }
-.transform-stand article a:hover hr {
+.transform-stand div a:hover hr {
   opacity: 1;
 }
-.transform-stand article:last-child hr {
+.transform-stand div:last-child hr {
   background: var(--red);
 }
 @media (min-width: 768px) {
-  .transform-stand article {
+  .transform-stand div {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 600px;
     text-align: left;
   }
-  .transform-stand article img {
+  .transform-stand div img {
     height: 100%;
     object-fit: cover;
   }
-  .transform-stand article:first-child picture {
+  .transform-stand div:first-child picture {
     grid-column: 2 / 3;
     grid-row: 1;
   }
