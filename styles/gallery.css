@@ -1,0 +1,16 @@
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.gallery img[class="gallery-img"][loading] {
+  height: 100%;
+  object-fit: cover
+}
+@media (min-width: 768px) {
+  .gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+}

@@ -1,0 +1,115 @@
+header{
+  background: url(../images/mobile/image-header.jpg) center center no-repeat;
+  height: 538px;
+  background-size: cover;
+}
+
+.header-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5em 1.5em;
+  color: var(--White); 
+}
+.logo {
+  font-family: "Barlow", sans-serif;
+  font-weight: 800;
+}
+
+input {
+  display: none;
+}
+.menu {
+  display: none;
+  position: absolute;
+  background: var(--White);
+  flex-direction: column;
+  align-items: center;
+  left: 0;
+  top: 6rem;
+  width: 84%;
+  right: 0;
+  margin: auto; 
+  padding: 1.1em 0; 
+  transition: all linear .2s; 
+  z-index: 1;
+}
+input:checked + .menu {
+  display: flex;
+  background: var(--White); 
+}
+.menu li {
+  padding: 1em 0;
+  text-align: center;
+  margin: auto;
+}
+.menu li a {
+  color: var(--Dark-grayish-blue);
+  font: var(--body);
+  text-decoration: none;
+}
+.menu button {
+  background: var(--yellow);
+  border: none;
+  padding: 1em 1.5em;
+  font: var(--button);
+  border-radius: 3rem;
+  text-transform: uppercase;
+  color: var(--Very-dark-blue);
+}
+li {
+  list-style: none;
+}
+
+input:checked + .menu::before{
+  content: "";
+  position: absolute;
+  right: 0;
+  top: -1.5rem; 
+  border-right: 30px solid var(--White);
+  border-bottom: 30px solid transparent;
+  border-top: 30px solid transparent;
+  border-left: 30px solid transparent;
+  
+}
+
+@media (min-width: 768px){
+  header{
+    background: url(../images/desktop/image-header.jpg) center center no-repeat;
+    height: 700px;
+    background-size: cover;
+  }
+  label{
+    display: none;
+  }
+  .header-menu{
+    justify-content: space-between;
+  }
+  .menu {
+    position: relative;
+    display: flex;
+    flex-direction: initial;
+    top: initial;
+    justify-content: space-between;
+    background: transparent;
+    width: initial;
+    padding: initial;
+    margin: initial;
+    gap: 3em;
+  }
+  .menu li{
+    padding: initial; 
+   
+  }
+  .menu li a {
+    color: var(--White);
+  }
+  .menu button {
+    background: var(--White);
+    cursor: pointer;
+  }
+  .menu button:hover {
+    background: rgba(255,255,255,.2);
+    color: var(--White);
+  }
+}

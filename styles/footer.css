@@ -1,0 +1,38 @@
+footer {
+  background: var(--dark-moderate);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--dark-desaturated); 
+  padding: 3em 0;
+  gap: 3em;
+}
+footer svg{
+  margin: 2em 0;
+}
+.head-footer{
+  display: grid;
+  place-items: center; 
+}
+.menu-footer {
+  font: var(--body);
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 3em;
+  padding: 0 1em;
+}
+ .icons{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 2em;
+ }
+footer li a{
+  color: var(--dark-desaturated); 
+  text-decoration: none;
+}
+footer li a:hover{
+  color: var(--White); 
+}

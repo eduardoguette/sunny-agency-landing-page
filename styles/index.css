@@ -1,0 +1,43 @@
+@import url("./header.css");
+@import url("./hero.css");
+@import url("./transform-stand.css");
+@import url("./cards.css");
+@import url("./testimonials.css");
+@import url("./gallery.css");
+@import url("./footer.css");
+:root {
+  --red: hsl(7, 99%, 70%);
+  --yellow: hsl(51, 100%, 49%);
+  --dark-desaturated: hsl(168, 45%, 32%);
+  --dark-blue: hsl(198, 62%, 26%);
+  --dark-moderate: hsl(167, 44%, 70%);
+
+  --Very-dark-blue: hsl(212, 27%, 19%);
+  --Very-dark-grayish-blue: hsl(213, 9%, 39%);
+  --Dark-grayish-blue: hsl(232, 10%, 55%);
+  --Grayish-blue: hsl(210, 4%, 67%);
+  --White: hsl(0, 0%, 100%);
+  --ff-barlow: "Barlow", sans-serif;
+  --ff-fraunces: "Fraunces", sans-serif;
+  --headline1: 900 clamp(38px, 5vh, 42px) / 50px var(--ff-fraunces);
+  --headline2: 900 32px / 42px var(--ff-fraunces);
+  --headline3: 900 24px / 42px var(--ff-fraunces);
+  --headline4: 900 18px / 30px var(--ff-fraunces);
+  --headline5: 700 clamp(16px, 3vw, 20px) / 27px var(--ff-fraunces);
+  --body: normal 18px / 27px var(--ff-barlow);
+  --button: 700 18px / 18px var(--ff-fraunces);
+  font-size: 18px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+img:not(.icon, .img-testimonial) {
+  width: 100%;
+  height: auto;
+}
+.hidden {
+  display: none;
+}

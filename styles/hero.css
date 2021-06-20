@@ -1,0 +1,24 @@
+
+.hero{
+  display: grid;
+  place-items: center;
+  position: absolute;
+  top: 7.5em;
+  left: 0;
+  right: 0;
+  margin: auto;
+  gap: 3em;
+}
+.hero-title{
+  font: var(--headline1);
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 5px;
+  color: var(--White);
+}
+@media (min-width: 768px){
+  .hero{
+
+    top: 12em;
+  }
+}
