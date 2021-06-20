@@ -9,7 +9,7 @@
   text-align: center;
   
 }
-.cards h1{
+.cards h2{
   padding: 1em 1em;
   color: var(--dark-desaturated);
 }
@@ -29,6 +29,13 @@
   align-items: center;
   text-align: center;
   
+}
+.cards .photography h2{
+  padding: 1em 1em;
+  color: var(--dark-blue);
+}
+.cards .photography p{
+  color: var(--dark-blue);
 }
 @media (min-width: 768px){
   .cards{
