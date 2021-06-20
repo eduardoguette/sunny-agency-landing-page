@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
+![Mobile](https://github.com/eduardoguette/sunny-agency-landing-page/blob/main/Captura%20de%20pantalla%202021-06-20%20a%20las%2022.04.03.png?raw=true)
+![Mobile](https://github.com/eduardoguette/sunny-agency-landing-page/blob/main/Screenshot%202021-06-20%20at%2022-03-30%20Frontend%20Mentor%20Sunnyside%20agency%20landing%20page.png?raw=true)
 
 ### Links
 
